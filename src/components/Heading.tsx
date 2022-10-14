@@ -6,11 +6,13 @@ interface HeadingProps {
   size?: 'sm' | 'md' | 'lg';
   children: ReactNode;
   asChild?: boolean;
+  className?: string;
 }
 
 const Heading = ({
   size = 'md',
   children,
+  className,
   asChild = false
 }: HeadingProps) => {
   const Comp = asChild ? Slot : 'span';
@@ -22,7 +24,8 @@ const Heading = ({
         'text-lg': size === 'sm',
         'text-xl': size === 'md',
         'text-2xl': size === 'lg',
-      }
+      },
+      className
     )}>
       {children}
     </Comp>
