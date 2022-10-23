@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/react%20version-18.0.1-informational"/>
-  <img src="https://img.shields.io/badge/last%20commit-august-important" />
+  <img src="https://img.shields.io/badge/last%20commit-october-important" />
   <img src="https://img.shields.io/badge/license-MIT-success"/>
 </p>
 
